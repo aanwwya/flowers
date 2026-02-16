@@ -1,0 +1,120 @@
+.individual-picker {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.individual-picker h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.flowers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.flower-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: white;
+  transition: border-color 0.3s ease;
+}
+
+.flower-item:hover {
+  border-color: #ff69b4;
+  background: #fff9fc;
+}
+
+.flower-info {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.flower-emoji {
+  font-size: 36px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.flower-info h4 {
+  color: #333;
+  margin: 0 0 5px 0;
+  font-size: 16px;
+}
+
+.flower-info p {
+  color: #999;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.flower-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qty-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ff69b4;
+  background: white;
+  color: #ff69b4;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.qty-btn:hover {
+  background: #ff69b4;
+  color: white;
+}
+
+.quantity {
+  min-width: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+}
+
+.bouquet-summary {
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.bouquet-summary p {
+  color: #666;
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+
+.confirm-btn {
+  padding: 12px 40px;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.confirm-btn:hover {
+  background: #ff49a4;
+}

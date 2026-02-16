@@ -1,0 +1,100 @@
+.message-editor {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.message-editor h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #ff69b4;
+  box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.1);
+}
+
+.message-preview {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.message-preview h3 {
+  color: #333;
+  margin: 0 0 15px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.message-preview p {
+  color: #666;
+  line-height: 1.6;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.back-btn,
+.confirm-btn {
+  padding: 12px 32px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-btn {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.back-btn:hover {
+  background: #e0e0e0;
+}
+
+.confirm-btn {
+  background: #ff69b4;
+  color: white;
+}
+
+.confirm-btn:hover {
+  background: #ff49a4;
+}

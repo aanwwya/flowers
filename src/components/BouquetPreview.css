@@ -1,0 +1,156 @@
+.bouquet-preview {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bouquet-preview h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.preview-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .preview-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bouquet-display {
+  background: linear-gradient(135deg, #fff9fc 0%, #f0f4ff 100%);
+  padding: 40px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.flowers-visualization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.flowers-group {
+  text-align: center;
+}
+
+.flowers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.flower-item {
+  font-size: 32px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.flower-item:nth-child(2n) {
+  animation-delay: 0.5s;
+}
+
+.flower-item:nth-child(3n) {
+  animation-delay: 1s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.flower-label {
+  color: #666;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.message-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-card {
+  background: white;
+  border: 2px solid #ff69b4;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(255, 105, 180, 0.15);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recipient {
+  color: #ff69b4;
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+
+.message-text {
+  color: #333;
+  line-height: 1.8;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.closing {
+  color: #999;
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+  margin-top: auto;
+}
+
+.bouquet-info {
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.bouquet-info p {
+  color: #666;
+  margin: 0;
+  font-size: 16px;
+}
+
+.start-over-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 40px;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.start-over-btn:hover {
+  background: #ff49a4;
+}

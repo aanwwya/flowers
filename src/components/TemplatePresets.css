@@ -1,0 +1,70 @@
+.template-presets {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.template-presets h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.templates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.template-card {
+  border: 2px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.template-card:hover {
+  border-color: #ff69b4;
+  box-shadow: 0 8px 24px rgba(255, 105, 180, 0.15);
+  transform: translateY(-4px);
+}
+
+.template-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.template-description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+  min-height: 40px;
+}
+
+.template-flowers {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.select-btn {
+  width: 100%;
+  padding: 10px;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.select-btn:hover {
+  background: #ff49a4;
+}
